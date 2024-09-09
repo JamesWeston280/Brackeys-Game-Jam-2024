@@ -10,3 +10,5 @@ hp_increase = 0.3
 round_countdown = 120
 
 spawn_odds = 200
+
+game_over = false;
