@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sBox_Yellow",
-    "path":"sprites/sBox_Yellow/sBox_Yellow.yy",
+    "name":"PlayerRun",
+    "path":"sprites/PlayerRun/PlayerRun.yy",
   },
   "spriteMaskId":null,
   "visible":true,
