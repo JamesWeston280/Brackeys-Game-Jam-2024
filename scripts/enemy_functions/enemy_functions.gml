@@ -34,6 +34,29 @@ function attack_tower()
 	alarm[0] = 20;
 }
 
+function enemy_ranged_attack()
+{
+
+	var _m_x = obj_Player.x;
+	var _m_y = obj_Player.y;
+	
+	if(alarm[2] <= 0)
+	{
+		var _Bullet = instance_create_layer(x,y,"Instances",obj_EnemyBullet);
+		alarm[2] = weapon_cooldown;
+		
+		with(_Bullet)
+		{	
+	
+			direction = point_direction(x,y,_m_x+random_range(-15,15),_m_y+random_range(-15,15));
+			image_angle = direction;
+			speed = 7;
+
+		}
+	}
+
+}
+
 function enemy_collision()
 {
 	var _on_ground = false;
@@ -66,7 +89,10 @@ function enemy_collision()
 
 function enemy_take_damage()
 {
+
+	hit = true;
 	hp -= 1;
+
 	
 	if (hp <= 0)
 	{
