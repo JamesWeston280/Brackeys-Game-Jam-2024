@@ -12,10 +12,6 @@ function player_movement()
 	
 	vsp += grv;
 	
-	//call collision function
-	var _on_ground = player_collision();
-	
-	
 	//jump
 	var _jump = keyboard_check_pressed(vk_space);
 	
@@ -25,6 +21,12 @@ function player_movement()
 		remaining_jumps --;
 		vsp -= jmp_height;
 	}
+	
+	
+	//call collision function
+	var _on_ground = player_collision();
+	
+	
 }
 
 
@@ -74,6 +76,7 @@ function player_shoot()
 	
 	if(alarm[0] <= 0)
 	{
+		
 		var _Bullet = instance_create_layer(x,y,"Instances",obj_PlayerBullet);
 		alarm[0] = weapon_cooldown;
 		
@@ -84,18 +87,70 @@ function player_shoot()
 			image_angle = direction;
 			speed = 15;
 
+			//recoil
+			other.hsp -= lengthdir_x(2,point_direction(other.x,other.y,_m_x,_m_y));
+			other.vsp -= lengthdir_y(2,point_direction(other.x,other.y,_m_x,_m_y));
+		
+
+
 		}
 	}
 	
 	
 }
 
+function handle_animation()
+{
+	if(hsp > 0)
+	{
+		sprite_index = sPlayerRun;
+		image_xscale = 1;
+	}
+	else if(hsp < 0)
+	{
+		sprite_index = sPlayerRun;
+		image_xscale = -1;
+	}
+	else
+	{
+		sprite_index = sPlayerIdle;
+	}
+}
+
+function take_damage(_damage_taken)
+{
+	if alarm[1] <= 0
+	{
+		hp -= _damage_taken;
+		alarm[1] = 20;
+		hit = true;
+		
+	}
+	
+	if (hp <= 0)
+	{
+		instance_destroy();
+	}
+}
+
+function handle_health()
+{
+	
+healthbar_x = (x) - (healthbar_width/2)
+healthbar_y = y - 30
+	
+draw_self()
+
+draw_sprite(sHealth_bg22, 0, healthbar_x, healthbar_y);
+draw_sprite_stretched(sHealth, 0, healthbar_x, healthbar_y,min((hp/max_hp) * healthbar_width, healthbar_width), healthbar_height);
+draw_sprite(sHealth_bg,0, healthbar_x, healthbar_y);
+}
 
 function player_update()
 {
-	player_movement();
 	player_controls();
-	
+	player_movement();
+	handle_animation();
 	
 	x += hsp;
 	y += vsp;

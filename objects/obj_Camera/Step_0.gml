@@ -4,6 +4,10 @@ if instance_exists(follow)
 {
 	xTo = follow.x;
 	yTo = follow.y;
+}else
+{
+xTo = obj_Tower.x;
+yTo = obj_Tower.y;
 }
 
 x+= (xTo - x)/5;

@@ -1,3 +1,5 @@
+/// @description Insert description here
+// You can write your code in this editor
 /// @description Init
 
 hsp = 0;
@@ -15,9 +17,12 @@ healthbar_height = 4
 
 healthbar_x = 0;
 healthbar_y = 0;
-hit = false;
 
 acceptance_range = 40;
+
+weapon_cooldown = 120;
+
+hit = false;
 
 half_room = room_width/2;
 

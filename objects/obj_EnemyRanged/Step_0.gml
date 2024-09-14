@@ -1,4 +1,6 @@
-/// @description
+/// @description Insert description here
+// You can write your code in this editor
+
 
 enemy_update();
 
@@ -13,3 +15,5 @@ with (instance_place(x,y,obj_Player))
 		other.alarm[1] = 20;
 	}
 }
+
+enemy_ranged_attack();
