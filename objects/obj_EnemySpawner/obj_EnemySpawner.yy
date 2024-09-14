@@ -34,6 +34,9 @@
     "name":"sBox_Pink",
     "path":"sprites/sBox_Pink/sBox_Pink.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"sBox_Pink",
+    "path":"sprites/sBox_Pink/sBox_Pink.yy",
+  },
   "visible":true,
 }

@@ -14,6 +14,7 @@ if instance_exists(obj_Enemy)
 		{	
 	
 			direction = point_direction(x,y,_m_x+random_range(-15,15),_m_y+random_range(-15,15));
+			other.image_angle = direction;
 			image_angle = direction;
 			speed = 7;
 
