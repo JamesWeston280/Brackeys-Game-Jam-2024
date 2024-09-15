@@ -57,6 +57,8 @@
     {"id":{"name":"GatlinGun","path":"sprites/GatlinGun/GatlinGun.yy",},},
     {"id":{"name":"GatlinGunBase","path":"sprites/GatlinGunBase/GatlinGunBase.yy",},},
     {"id":{"name":"Gnome_tree","path":"sprites/Gnome_tree/Gnome_tree.yy",},},
+    {"id":{"name":"S_Portal_Cover","path":"sprites/S_Portal_Cover/S_Portal_Cover.yy",},},
+    {"id":{"name":"S_Portal","path":"sprites/S_Portal/S_Portal.yy",},},
     {"id":{"name":"sBox_Blue","path":"sprites/sBox_Blue/sBox_Blue.yy",},},
     {"id":{"name":"sBox_Pink","path":"sprites/sBox_Pink/sBox_Pink.yy",},},
     {"id":{"name":"sBox_Turret","path":"sprites/sBox_Turret/sBox_Turret.yy",},},

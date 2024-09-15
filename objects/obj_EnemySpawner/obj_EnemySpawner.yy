@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sBox_Pink",
-    "path":"sprites/sBox_Pink/sBox_Pink.yy",
+    "name":"S_Portal",
+    "path":"sprites/S_Portal/S_Portal.yy",
   },
   "spriteMaskId":{
     "name":"sBox_Pink",
