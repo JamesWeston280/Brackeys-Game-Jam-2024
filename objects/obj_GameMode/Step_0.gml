@@ -20,7 +20,3 @@ else
 		countdown = time;
 	}
 }
-
-
-if keyboard_check_pressed(vk_up)
-{round_counter ++}

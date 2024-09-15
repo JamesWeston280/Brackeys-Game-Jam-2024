@@ -3,7 +3,7 @@ which_enemy = irandom_range(0,spawn_odds);
 
 if (which_enemy <= array_length(enemy_types)-1)
 {
-	instance_create_depth(x,y,depth-1, enemy_types[which_enemy]);
+	instance_create_depth(x,y-100,depth-1, enemy_types[which_enemy]);
 }
 else
 {

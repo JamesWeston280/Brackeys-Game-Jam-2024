@@ -39,6 +39,7 @@
   "resources":[
     {"id":{"name":"font_Main","path":"fonts/font_Main/font_Main.yy",},},
     {"id":{"name":"obj_Camera","path":"objects/obj_Camera/obj_Camera.yy",},},
+    {"id":{"name":"obj_Enemy_POG","path":"objects/obj_Enemy_POG/obj_Enemy_POG.yy",},},
     {"id":{"name":"obj_Enemy","path":"objects/obj_Enemy/obj_Enemy.yy",},},
     {"id":{"name":"obj_EnemyBullet","path":"objects/obj_EnemyBullet/obj_EnemyBullet.yy",},},
     {"id":{"name":"obj_EnemyRanged","path":"objects/obj_EnemyRanged/obj_EnemyRanged.yy",},},

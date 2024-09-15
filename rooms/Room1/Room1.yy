@@ -11,9 +11,6 @@
     {"name":"inst_7F60E7D8","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_44F10189","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_4251D1D3","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_390A0809","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_429C8249","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_59937245","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_480F6F68","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_29079E38","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_2CEC4F30","path":"rooms/Room1/Room1.yy",},
@@ -57,9 +54,6 @@
         {"$GMRSpriteGraphic":"","%Name":"graphic_4E803B1","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_4E803B1","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":-1.0,"scaleY":1.0,"spriteId":{"name":"S_Portal_Cover","path":"sprites/S_Portal_Cover/S_Portal_Cover.yy",},"x":96.0,"y":672.0,},
       ],"depth":100,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"PortalCovers","properties":[],"resourceType":"GMRAssetLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Guns","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"v1","%Name":"inst_390A0809","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_390A0809","objectId":{"name":"obj_Turret","path":"objects/obj_Turret/obj_Turret.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1102.0,"y":689.0,},
-        {"$GMRInstance":"v1","%Name":"inst_429C8249","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_429C8249","objectId":{"name":"obj_Turret","path":"objects/obj_Turret/obj_Turret.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":782.0,"y":689.0,},
-        {"$GMRInstance":"v1","%Name":"inst_59937245","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_59937245","objectId":{"name":"obj_Turret","path":"objects/obj_Turret/obj_Turret.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1230.0,"y":689.0,},
         {"$GMRInstance":"v1","%Name":"inst_4F780609","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4F780609","objectId":{"name":"obj_gun","path":"objects/obj_gun/obj_gun.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":896.0,"y":640.0,},
       ],"layers":[],"name":"Guns","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
