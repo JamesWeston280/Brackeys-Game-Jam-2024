@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sBox_Turret",
-    "path":"sprites/sBox_Turret/sBox_Turret.yy",
+    "name":"GatlinGun",
+    "path":"sprites/GatlinGun/GatlinGun.yy",
   },
   "spriteMaskId":null,
   "visible":true,

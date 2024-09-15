@@ -12,3 +12,6 @@ round_countdown = 120
 spawn_odds = 20;
 
 game_over = false;
+
+points = 0;
+current_points = points;

@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sBox_Pink",
-    "path":"sprites/sBox_Pink/sBox_Pink.yy",
+    "name":"Gnome_tree",
+    "path":"sprites/Gnome_tree/Gnome_tree.yy",
   },
   "spriteMaskId":null,
   "visible":true,

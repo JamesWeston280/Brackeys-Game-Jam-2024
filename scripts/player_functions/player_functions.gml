@@ -24,7 +24,7 @@ function player_movement()
 	
 	
 	//call collision function
-	var _on_ground = player_collision();
+	on_ground = player_collision();
 	
 	
 }
@@ -67,7 +67,23 @@ function player_controls()
 	{
 		player_shoot();
 	}
+	
+	if(keyboard_check_pressed(ord("E")))
+	{
+		place_sentry();
+		
+	}
 }
+
+function place_sentry()
+{
+	if(on_ground && obj_GameMode.points >= 1000)
+	{
+		instance_create_layer(x+20,y,"Instances",obj_Turret);
+		obj_GameMode.points -= 1000;
+	}
+}
+
 
 function player_shoot()
 {

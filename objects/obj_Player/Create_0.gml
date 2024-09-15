@@ -7,6 +7,7 @@ vsp = 0;
 spd = 6;
 grv = 0.5;
 jmp_height = 10;
+on_ground = false;
 
 max_jumps = 2;
 remaining_jumps = 0;

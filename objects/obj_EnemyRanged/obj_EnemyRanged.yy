@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sBox_Blue",
-    "path":"sprites/sBox_Blue/sBox_Blue.yy",
+    "name":"sWalkingFrog_Gun",
+    "path":"sprites/sWalkingFrog_Gun/sWalkingFrog_Gun.yy",
   },
   "spriteMaskId":null,
   "visible":true,
