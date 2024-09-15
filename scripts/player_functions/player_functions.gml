@@ -86,7 +86,7 @@ function player_shoot()
 			direction = point_direction(x,y,_m_x+random_range(-15,15),_m_y+random_range(-15,15));
 			image_angle = direction;
 			speed = 15;
-
+other.GunDirection = point_direction(x,y,_m_x+random_range(-15,15),_m_y+random_range(-15,15));
 			//recoil
 			other.hsp -= lengthdir_x(2,point_direction(other.x,other.y,_m_x,_m_y));
 			other.vsp -= lengthdir_y(2,point_direction(other.x,other.y,_m_x,_m_y));

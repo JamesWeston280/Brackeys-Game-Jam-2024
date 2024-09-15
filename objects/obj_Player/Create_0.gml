@@ -1,5 +1,5 @@
 /// @description Init
-
+GunDirection = 0
 //speed and movement
 hsp = 0;
 vsp = 0;
