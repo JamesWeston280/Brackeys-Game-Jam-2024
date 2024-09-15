@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sBullet",
-    "path":"sprites/sBullet/sBullet.yy",
+    "name":"s_EnemyBullet",
+    "path":"sprites/s_EnemyBullet/s_EnemyBullet.yy",
   },
   "spriteMaskId":null,
   "visible":true,

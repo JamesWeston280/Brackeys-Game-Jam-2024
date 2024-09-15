@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sBox_Yellow",
-    "path":"sprites/sBox_Yellow/sBox_Yellow.yy",
+    "name":"sWalkingFrog",
+    "path":"sprites/sWalkingFrog/sWalkingFrog.yy",
   },
   "spriteMaskId":null,
   "visible":true,
