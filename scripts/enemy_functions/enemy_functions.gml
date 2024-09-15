@@ -19,6 +19,16 @@ function enemy_movement()
 		
 	}
 	
+	if(x > (half_room))
+	{
+		image_xscale = 1;
+	}
+	else
+	{
+		image_xscale = -1;
+	}
+	
+	
 	hsp = dir * spd;
 	
 	vsp += grv;
@@ -40,7 +50,7 @@ function enemy_ranged_attack()
 	var _m_x = obj_Player.x;
 	var _m_y = obj_Player.y;
 	
-	if(alarm[2] <= 0)
+	if(alarm[2] <= 0 && instance_exists(obj_Player))
 	{
 		var _Bullet = instance_create_layer(x,y,"Instances",obj_EnemyBullet);
 		alarm[2] = weapon_cooldown;
@@ -96,6 +106,7 @@ function enemy_take_damage()
 	
 	if (hp <= 0)
 	{
+		obj_GameMode.points += 10;
 		instance_destroy();
 	}
 }
